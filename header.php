@@ -19,11 +19,10 @@
     <div id="container">
         <!----header--->
        <header>
-        <a href="index.php">
-		   <img class="eurocupimage" src="/PesDraw/images/uefa.jpg"  width="104" height="80" alt="Euro trophy">
-		   <img class="#" src="/PesDraw/images/pes.jpg"  width="104" height="80" alt="PES logo"><h1 id="title" >DRAW</h1>
-		<img class="worldcupimage" src="/PesDraw/images/worldcup.jpg"  width="104" height="80" alt="World Cup Trophy">
-        </a>
+        <div id="titleposition"><a href="index.php">
+           <h1><img class="pesLogo" src="images/pes.jpg"  width="104" height="80" alt="PES logo"><div id="title" >DRAW</div></h1>
+			
+        </a></div>
     </header>
 
     <nav>
