@@ -11,34 +11,35 @@ Tags:
 Text domain: pes draw
 
 */
-html, body {
-	margin: 0 auto;
-	min-height: 100%;
-	background: -webkit-linear-gradient(grey, white);
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(grey, white);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(grey, white);
-	/* For Firefox 3.6 to 15 */
-	background: black;
-	/* Standard syntax (must be last) */
+	
+
+	html, body {
+    margin: 0 auto;
+    min-height: 100%;
+	background: -webkit-linear-gradient(grey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, white); /* Standard syntax (must be last) */
 }
 
 body {
-	width: 960px;
+	width:960px;
 	//margin: 0 auto;
 	height: 100p%;
+	
+	
 }
 
-#container {
+#container
+{
 	margin: 0 auto;
-	background: #FFF;
+	background: #fff;
 	width: 100%;
 }
 
 main {
 	margin: 0 auto;
-	background: #FFF;
+	background: #fff;
 	width: 100%;
 }
 
@@ -49,48 +50,28 @@ header {
 	border: 10px;
 	font-size: 30px;
 	font-family: 'Oswald', sans-serif;
-	background: -webkit-linear-gradient(left, grey, white);
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, grey, white);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, grey, white);
-	/* For Firefox 3.6 to 15 */
-	background: white;
-	/* Standard syntax */
-	width: 70%;
-	position: relative;
-	height: 100px;
+	background: -webkit-linear-gradient(left, grey , white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, grey, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, grey, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, grey, white); /* Standard syntax */
+	
 }
 
 header h1 {
-	/* margin: 0 auto; */
-	/* padding-top: 17px; */
-	/* padding-bottom: 17px; */
-	width: 19%;
-	/* float: left; */
-	/* margin-right: 0; */
-	/* margin-left: 0; */
-	margin: 0;
-	/* position: relative; */
-	position: absolute;
-	top: 27px;
-	left: 51%;
-}
-
-h1 {
-	padding-right: 0px;
-	margin-top: 14px;
-	margin-bottom: -9px;
-	color: black;
+	margin: 0 auto; 
+	padding-top: 17px;
+	padding-bottom: 17px;
 }
 
 div#title {
-	color: black;
+  color: black;
 }
 
 img.pesLogo {
-	float: left;
+    float:  left;
 }
+
+
 
 #titleposition {
 	background-color: white;
@@ -104,6 +85,7 @@ nav {
 	float: left;
 	width: 100%;
 	background: black;
+	
 }
 
 nav ul {
@@ -121,17 +103,17 @@ nav li a {
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #FFF;
+	color: #fff;
 	text-decoration: none;
-	border-right: 1px solid #FFF;
+	border-right: 1px solid #fff;
 }
 
 nav li a:hover {
-	background: #384;
+	background: #384; 
 }
 
 footer {
-	background: #CCC;
+	background: #ccc;
 	text-align: center;
 	margin-top: 10px;
 	font-family: 'Oswald', sans-serif;
@@ -141,7 +123,7 @@ footer {
 }
 
 button {
-	height: 50px;
+	height:50px;
 	width: 24%;
 	font-family: 'Oswald', sans-serif;
 	position: center;
@@ -181,18 +163,13 @@ button {
 select {
 	width: 24%;
 	font-family: 'Oswald', sans-serif;
-	height: 50px;
-	background: -webkit-linear-gradient(#F7F7F7, #DDDDDD);
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#F7F7F7, #DDDDDD);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#F7F7F7, #DDDDDD);
-	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#F7F7F7, #DDDDDD);
-	/* Standard syntax (must be last) */
+	height:50px;
+	background: -webkit-linear-gradient(#F7F7F7, #DDDDDD); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#F7F7F7, #DDDDDD); /* For Opera 11.1 to 12.0 */		background: -moz-linear-gradient(#F7F7F7, #DDDDDD); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#F7F7F7, #DDDDDD); /* Standard syntax (must be last) */
 	margin-left: 1.4%;
 	font-size: 1em;
-	cursor: pointer;
+	cursor:pointer;
 	padding-left: 7%;
 }
 
@@ -211,19 +188,22 @@ th {
 	text-decoration: underline;
 }
 
-#titleposition a {
-	text-decoration: none;
+#titleposition a  {
+text-decoration: none;
 }
 
-#titleposition a:visited {
-	text-decoration: none;
-	color: black;
+#titleposition a:visited  {
+text-decoration: none;
+ color: black;
 }
+
 
 .konamiLink {
-	float: right;
-	border-left: 1px solid #FFF;
+	
+	float: right; 
+	border-left: 1px solid #fff;
 }
+
 
 .welcomeHeader {
 	text-align: center;
@@ -241,26 +221,25 @@ th {
 	padding-bottom: 10px;
 	text-align: center;
 }
-
 .hide {
-	visibility: hidden;
+	visibility: hidden
 }
-
 #content {
-	height: 100%;
-	background-color: white;
-	width: 100%;
+height: 100%;
+background-color: white;
+width: 100%;
 }
 
 table {
 	border-spacing: 50px 20px;
 	font-family: 'Oswald', sans-serif;
 	border-style: outset;
+	
 }
 
 .myTables {
-	width: 25%;
-	float: left;
+	width:25%;
+	float:left;
 	display: inline-block;
 }
 
@@ -268,6 +247,7 @@ table {
 	//width: 100px;
 	float: left;
 	display: inline-block;
+	
 }
 
 .red {
@@ -275,854 +255,852 @@ table {
 	//font-weight: bold;
 }
 
-.flag img {
+.flag img{
 	padding-right: 10px;
 	//padding-top: 20px;
 }
 
 .topButton {
-	display: none;
-}
-
-
-
-a {
-  width: 100 %;
-  text-decoration: none;
-}
-
-img.worldcupimage {
-  position: absolute;
-  top: 28px;
-  left: 80%;
+display: none;
 }
 
 @media screen and (max-width: 730px) {
-	html body {
-		background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) repeat scroll 0% 0% transparent;
-		margin: 0 auto;
-		min-height: 100%;
+
+html body{
+background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) repeat scroll 0% 0% transparent;
+margin: 0 auto;
+    min-height: 100%;
+}
+body{
+width: 480px;
+
+}
+
+
+.myTables {
+width: 50%;
+
+}
+
+button {
+width: 25%;
+position: fixed;
+top: 157px;
+left: 0px;
+
+
+}
+
+select {
+width: 23%;
+left: 0%;
+position: fixed;
+top: 168px;
+padding-left: 3%;
+padding-bottom: 5px;
+
+}
+#teamPicked{
+//font-size: 15px;
+margin-top: 10px;
+font-size: 14px;
+
+}
+.buttonSpace {
+margin-top: 216px;
+
+}
+#buttonSpace{
+position: fixed;
+top: 162px;
+left: 0px;
+width: 100%;
+background: white;
+height: 60px;
+}
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+nav {
+position: fixed;
+top: 129px;
+left: 0;
+width: 100%;
+}
+
+#reset {
+	left: 75.5%;
+}
+
+#pickTeam {
+left: 0%;
+margin-left: 0%;
+}
+
+#drawAll {
+left: 50%;
+}
+
+#draw {
+left: 25%;
+}
+
+#teamPicked {
+	left: 0%;
+	margin-left: 0%;
+	
+}
+
+
+table {
+background-color: white;
+}
+body.index{
+height: 100%;
+}
+
+.welcomeHeader {
+padding-top: 150px;
+}
+.hideMobile {
+	display: none;
+}
+
+.topButton {
+display: none;
+}
+
+@media screen and (max-width: 370px) {
+
+html, body {
+    margin: 0 auto;
+    min-height: 100%;
 	}
 	
-	body {
-		width: 480px;
+	html {
+	background: none;
+	}
+#title {
+clear: both;
+}
+
+#titleposition{
+padding-left: 8%;
+}
+
+body {
+    width: 291px;
+}
+
+#title {
+    clear: none;
+}
+
+td.table.flag {
+width: 100%;
+}
+
+.worldCupLink{
+border-right: none;
+padding-left: 8%;
+text-align: center;
+
+
+}
+
+.links{
+width: 40%;
+}
+
+.linkHome {
+width: 20%;
+}
+
+.linkEuro{
+width: 50%;
+text-align: center;
+
+
+}
+.hideMobile {
+	display: none;
+}
+
+.myTables {
+
+width: 70%;
+}
+footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+button {
+	height:68px;
+	margin-left: 5px;
+	margin-top: 4px;
+	position: fixed;
+	left: 72%;
+}
+
+#reset {
+margin-right: 0%;
+font-size: 1em;
+top: 373px;
+left: 72%;
+}
+
+
+
+#drawAll {
+top: 301px;
+left: 73.3%;
+}
+
+#pickTeam {
+
+	font-size: 1em;
+	top: 160px;
+	left: 73.5%;
+	
+	
+	
+}
+#draw{
+top: 230px;
+left: 72%;
+}
+
+#teamPicked {
+	
+	font-size: 13px;
+left: 72%;
+top: 154px;
+	
+}
+
+
+#backToTop {
+    top: 446px;
+    height: 110px;
+	left: 72%;
+}
+
+
+select {
+
+width: 23%;
+padding-left: 0%;
+height: 70px;
+position: fixed;
+left: 72%;
+top: 164px;
+}
+
+#buttonSpace{
+display: none;
+}
+
+table {
+    border-spacing: 46px 20px;
+	width: 107%;
+ }
+ 
+ p.about{
+ padding-bottom: 40px;
+ }
+ 
+ .buttonSpace {
+margin-top: 0px;
+ }
+ 
+#grpA.myTables {
+margin-top: 164px;
+}
+.topButton {
+visibility: hidden;
+}
+
+}
+
+@media screen and (max-width: 325px) {
+html  body{
+min-width: 250px;
+}
+
+tbody {
+display: table;
+}
+html {
+background: none;
+}
+
+body {
+    width: 280px;
+}
+
+.worldCupLink{
+border-right: none;
+padding-left: 3%;
+}
+table {
+    border-spacing: 46px 20px;
+	border-collapse: collapse;
+ }
+ 
+ td.table.flag {
+    width: 100%;
+    padding-left: 17%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#title{
+clear: left;
+}
+#reset {
+top: 456px;
+}
+img.pesLogo {
+    float: left;
+    margin-left: 7%;
+}
+#titleposition{
+padding-left: 23%;
+}
+
+
+#drawAll {
+top: 385px;
+}
+
+#pickTeam {
+
+top: 243px;
+	
+	
+	
+}
+#draw{
+top: 314px;
+}
+
+#teamPicked {
+	top: 238px;
+left: 73.5%;
+	
+}
+body {
+    width: 0px;
+}
+#backToTop {
+top: 533px;
+height: 126px;
+left: 72%;
+}
+
+select {
+
+
+top: 243px;
+}
+nav{
+top: 209px;
+}
+#grpA.myTables {
+margin-top: 269px;
+}
+#grpB.myTables {
+    margin-top: 25px;
+}
+.welcomeHeader {
+    padding-top: 226px;
+}
+.buttonSpace {
+    margin-top: -25px;
+}
+.topButton {
+visibility: hidden;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { /* STYLES GO HERE */
+html, body {
+    margin: 0 auto;
+    min-height: 100%;
 	}
 	
-	.myTables {
-		width: 50%;
+	html {
+	background: none;
 	}
+#title {
+clear: both;
+}
+
+#titleposition{
+padding-left: 8%;
+}
+
+body {
+    width: 291px;
+}
+
+#title {
+    clear: none;
+}
+
+td.table.flag {
+width: 100%;
+}
+
+.worldCupLink{
+border-right: none;
+padding-left: 8%;
+
+
+}
+
+.links{
+width: 40%;
+}
+
+.linkHome {
+width: 20%;
+}
+
+.linkEuro{
+width: 57%;
+
+}
+.hideMobile {
+	display: none;
+}
+
+.myTables {
+
+width: 70%;
+}
+footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+button {
+	height:68px;
+	margin-left: 5px;
+	margin-top: 4px;
+	position: fixed;
+	left: 72%;
+}
+
+#reset {
+margin-right: 0%;
+font-size: 1em;
+top: 373px;
+left: 72%;
+}
+
+
+
+#drawAll {
+top: 301px;
+left: 73.3%;
+}
+
+#pickTeam {
+
+	font-size: 1em;
+	top: 160px;
+	left: 73.6%;
 	
-	button {
-		width: 25%;
-		position: fixed;
-		top: 157px;
-		left: 0px;
-	}
 	
-	select {
-		width: 23%;
-		left: 0%;
-		position: fixed;
-		top: 168px;
-		padding-left: 3%;
-		padding-bottom: 5px;
-	}
 	
-	#teamPicked {
-		//font-size: 15px;
-		margin-top: 10px;
-		font-size: 14px;
-	}
+}
+#draw{
+top: 230px;
+left: 72%;
+}
+
+#teamPicked {
 	
-	.buttonSpace {
-		margin-top: 216px;
-	}
+	font-size: 13px;
+left: 72%;
+top: 154px;
 	
-	#buttonSpace {
-		position: fixed;
-		top: 162px;
-		left: 0px;
-		width: 100%;
-		background: white;
-		height: 60px;
-	}
+}
+
+
+#backToTop {
+    top: 446px;
+    height: 110px;
+	left: 72%;
+}
+
+
+.selectMobile {
+
+width: 23%;
+padding-left: 0%;
+height: 70px;
+position: fixed;
+left: 72%;
+top: 164px;
+}
+
+#buttonSpace{
+display: none;
+}
+
+table {
+    border-spacing: 46px 20px;
+	width: 107%;
+ }
+ 
+ p.about{
+ padding-bottom: 40px;
+ }
+ 
+ .buttonSpace {
+margin-top: 0px;
+ }
+ 
+#grpA.myTables {
+margin-top: 164px;
+}
+
+header {
+background: none;
+}
+.topButton {
+display: none;
+}
+
+}
+
+@media screen and (max-width: 325px) {
+html  body{
+min-width: 250px;
+}
+
+tbody {
+display: table;
+}
+html {
+background: none;
+}
+
+body {
+    width: 280px;
+}
+
+.worldCupLink{
+border-right: none;
+padding-left: 3%;
+}
+table {
+    border-spacing: 46px 20px;
+	border-collapse: collapse;
+ }
+ 
+ td.table.flag {
+    width: 100%;
+    padding-left: 17%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#title{
+clear: left;
+}
+#reset {
+top: 456px;
+}
+img.pesLogo {
+    float: left;
+    margin-left: 7%;
+}
+#titleposition{
+padding-left: 23%;
+}
+
+
+#drawAll {
+top: 385px;
+}
+
+#pickTeam {
+
+top: 243px;
 	
-	header {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-	}
 	
-	nav {
-		position: fixed;
-		top: 129px;
-		left: 0;
-		width: 100%;
-	}
 	
-	#reset {
-		left: 75.5%;
-	}
+}
+#draw{
+top: 314px;
+}
+
+#teamPicked {
+	top: 238px;
+left: 73.5%;
 	
-	#pickTeam {
-		left: 0%;
-		margin-left: 0%;
-	}
+}
+body {
+    width: 0px;
+}
+#backToTop {
+top: 533px;
+height: 126px;
+left: 72%;
+}
+
+select {
+
+
+top: 243px;
+}
+nav{
+top: 209px;
+}
+#grpA.myTables {
+margin-top: 270px;
+}
+#grpB.myTables {
+    margin-top: 25px;
+}
+.welcomeHeader {
+    padding-top: 226px;
+}
+.buttonSpace {
+    margin-top: -25px;
+}
+html  body{
+min-width: 250px;
+}
+
+tbody {
+display: table;
+}
+html {
+background: none;
+}
+
+body {
+    width: 280px;
+}
+
+.worldCupLink{
+border-right: none;
+padding-left: 3%;
+}
+table {
+    border-spacing: 46px 20px;
+	border-collapse: collapse;
+ }
+ 
+ td.table.flag {
+    width: 100%;
+    padding-left: 17%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#title{
+clear: left;
+}
+#reset {
+top: 456px;
+}
+img.pesLogo {
+    float: left;
+    margin-left: 7%;
+}
+#titleposition{
+padding-left: 23%;
+}
+
+
+#drawAll {
+top: 385px;
+}
+
+#pickTeam {
+
+top: 243px;
+left: 73.6%;
 	
-	#drawAll {
-		left: 50%;
-	}
 	
-	#draw {
-		left: 25%;
-	}
 	
-	#teamPicked {
-		left: 0%;
-		margin-left: 0%;
-	}
+}
+#draw{
+top: 314px;
+}
+
+#teamPicked {
+	top: 238px;
+left: 73.5%;
 	
-	table {
-		background-color: white;
-	}
-	
-	body.index {
-		height: 100%;
-	}
-	
-	.welcomeHeader {
-		padding-top: 150px;
-	}
-	
-	.hideMobile {
-		display: none;
-	}
-	
-	.topButton {
-		display: none;
-	}
-	
-	@media screen and (max-width: 370px) {
-		html, body {
-			margin: 0 auto;
-			min-height: 100%;
-		}
-		
-		html {
-			background: none;
-		}
-		
-		#title {
-			clear: both;
-		}
-		
-		#titleposition {
-			padding-left: 8%;
-		}
-		
-		body {
-			width: 291px;
-		}
-		
-		#title {
-			clear: none;
-		}
-		
-		td.table.flag {
-			width: 100%;
-		}
-		
-		.worldCupLink {
-			border-right: none;
-			padding-left: 8%;
-			text-align: center;
-		}
-		
-		.links {
-			width: 40%;
-		}
-		
-		.linkHome {
-			width: 20%;
-		}
-		
-		.linkEuro {
-			width: 50%;
-			text-align: center;
-		}
-		
-		.hideMobile {
-			display: none;
-		}
-		
-		.myTables {
-			width: 70%;
-		}
-		
-		footer {
-			clear: both;
-			position: relative;
-			z-index: 10;
-			height: 3em;
-			margin-top: -3em;
-		}
-		
-		button {
-			height: 68px;
-			margin-left: 5px;
-			margin-top: 4px;
-			position: fixed;
-			left: 72%;
-		}
-		
-		#reset {
-			margin-right: 0%;
-			font-size: 1em;
-			top: 373px;
-			left: 72%;
-		}
-		
-		#drawAll {
-			top: 301px;
-			left: 73.3%;
-		}
-		
-		#pickTeam {
-			font-size: 1em;
-			top: 160px;
-			left: 73.5%;
-		}
-		
-		#draw {
-			top: 230px;
-			left: 72%;
-		}
-		
-		#teamPicked {
-			font-size: 13px;
-			left: 72%;
-			top: 154px;
-		}
-		
-		#backToTop {
-			top: 446px;
-			height: 110px;
-			left: 72%;
-		}
-		
-		select {
-			width: 23%;
-			padding-left: 0%;
-			height: 70px;
-			position: fixed;
-			left: 72%;
-			top: 164px;
-		}
-		
-		#buttonSpace {
-			display: none;
-		}
-		
-		table {
-			border-spacing: 46px 20px;
-			width: 107%;
-		}
-		
-		p.about {
-			padding-bottom: 40px;
-		}
-		
-		.buttonSpace {
-			margin-top: 0px;
-		}
-		
-		#grpA.myTables {
-			margin-top: 164px;
-		}
-		
-		.topButton {
-			visibility: hidden;
-		}
-	}
-	
-	@media screen and (max-width: 325px) {
-		html body {
-			min-width: 250px;
-		}
-		
-		tbody {
-			display: table;
-		}
-		
-		html {
-			background: none;
-		}
-		
-		body {
-			width: 280px;
-		}
-		
-		.worldCupLink {
-			border-right: none;
-			padding-left: 3%;
-		}
-		
-		table {
-			border-spacing: 46px 20px;
-			border-collapse: collapse;
-		}
-		
-		td.table.flag {
-			width: 100%;
-			padding-left: 17%;
-			padding-top: 5%;
-			padding-bottom: 5%;
-		}
-		
-		#title {
-			clear: left;
-		}
-		
-		#reset {
-			top: 456px;
-		}
-		
-		img.pesLogo {
-			float: left;
-			margin-left: 7%;
-		}
-		
-		#titleposition {
-			padding-left: 23%;
-		}
-		
-		#drawAll {
-			top: 385px;
-		}
-		
-		#pickTeam {
-			top: 243px;
-		}
-		
-		#draw {
-			top: 314px;
-		}
-		
-		#teamPicked {
-			top: 238px;
-			left: 73.5%;
-		}
-		
-		body {
-			width: 0px;
-		}
-		
-		#backToTop {
-			top: 533px;
-			height: 126px;
-			left: 72%;
-		}
-		
-		select {
-			top: 243px;
-		}
-		
-		nav {
-			top: 209px;
-		}
-		
-		#grpA.myTables {
-			margin-top: 269px;
-		}
-		
-		#grpB.myTables {
-			margin-top: 25px;
-		}
-		
-		.welcomeHeader {
-			padding-top: 226px;
-		}
-		
-		.buttonSpace {
-			margin-top: -25px;
-		}
-		
-		.topButton {
-			visibility: hidden;
-		}
-	}
-	
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-		/* STYLES GO HERE */
-		html, body {
-			margin: 0 auto;
-			min-height: 100%;
-		}
-		
-		html {
-			background: none;
-		}
-		
-		#title {
-			clear: both;
-		}
-		
-		#titleposition {
-			padding-left: 8%;
-		}
-		
-		body {
-			width: 291px;
-		}
-		
-		#title {
-			clear: none;
-		}
-		
-		td.table.flag {
-			width: 100%;
-		}
-		
-		.worldCupLink {
-			border-right: none;
-			padding-left: 8%;
-		}
-		
-		.links {
-			width: 40%;
-		}
-		
-		.linkHome {
-			width: 20%;
-		}
-		
-		.linkEuro {
-			width: 57%;
-		}
-		
-		.hideMobile {
-			display: none;
-		}
-		
-		.myTables {
-			width: 70%;
-		}
-		
-		footer {
-			clear: both;
-			position: relative;
-			z-index: 10;
-			height: 3em;
-			margin-top: -3em;
-		}
-		
-		button {
-			height: 68px;
-			margin-left: 5px;
-			margin-top: 4px;
-			position: fixed;
-			left: 72%;
-		}
-		
-		#reset {
-			margin-right: 0%;
-			font-size: 1em;
-			top: 373px;
-			left: 72%;
-		}
-		
-		#drawAll {
-			top: 301px;
-			left: 73.3%;
-		}
-		
-		#pickTeam {
-			font-size: 1em;
-			top: 160px;
-			left: 73.6%;
-		}
-		
-		#draw {
-			top: 230px;
-			left: 72%;
-		}
-		
-		#teamPicked {
-			font-size: 13px;
-			left: 72%;
-			top: 154px;
-		}
-		
-		#backToTop {
-			top: 446px;
-			height: 110px;
-			left: 72%;
-		}
-		
-		.selectMobile {
-			width: 23%;
-			padding-left: 0%;
-			height: 70px;
-			position: fixed;
-			left: 72%;
-			top: 164px;
-		}
-		
-		#buttonSpace {
-			display: none;
-		}
-		
-		table {
-			border-spacing: 46px 20px;
-			width: 107%;
-		}
-		
-		p.about {
-			padding-bottom: 40px;
-		}
-		
-		.buttonSpace {
-			margin-top: 0px;
-		}
-		
-		#grpA.myTables {
-			margin-top: 164px;
-		}
-		
-		header {
-			background: none;
-		}
-		
-		.topButton {
-			display: none;
-		}
-	}
-	
-	@media screen and (max-width: 325px) {
-		html body {
-			min-width: 250px;
-		}
-		
-		tbody {
-			display: table;
-		}
-		
-		html {
-			background: none;
-		}
-		
-		body {
-			width: 280px;
-		}
-		
-		.worldCupLink {
-			border-right: none;
-			padding-left: 3%;
-		}
-		
-		table {
-			border-spacing: 46px 20px;
-			border-collapse: collapse;
-		}
-		
-		td.table.flag {
-			width: 100%;
-			padding-left: 17%;
-			padding-top: 5%;
-			padding-bottom: 5%;
-		}
-		
-		#title {
-			clear: left;
-		}
-		
-		#reset {
-			top: 456px;
-		}
-		
-		img.pesLogo {
-			float: left;
-			margin-left: 7%;
-		}
-		
-		#titleposition {
-			padding-left: 23%;
-		}
-		
-		#drawAll {
-			top: 385px;
-		}
-		
-		#pickTeam {
-			top: 243px;
-		}
-		
-		#draw {
-			top: 314px;
-		}
-		
-		#teamPicked {
-			top: 238px;
-			left: 73.5%;
-		}
-		
-		body {
-			width: 0px;
-		}
-		
-		#backToTop {
-			top: 533px;
-			height: 126px;
-			left: 72%;
-		}
-		
-		select {
-			top: 243px;
-		}
-		
-		nav {
-			top: 209px;
-		}
-		
-		#grpA.myTables {
-			margin-top: 270px;
-		}
-		
-		#grpB.myTables {
-			margin-top: 25px;
-		}
-		
-		.welcomeHeader {
-			padding-top: 226px;
-		}
-		
-		.buttonSpace {
-			margin-top: -25px;
-		}
-		
-		html body {
-			min-width: 250px;
-		}
-		
-		tbody {
-			display: table;
-		}
-		
-		html {
-			background: none;
-		}
-		
-		body {
-			width: 280px;
-		}
-		
-		.worldCupLink {
-			border-right: none;
-			padding-left: 3%;
-		}
-		
-		table {
-			border-spacing: 46px 20px;
-			border-collapse: collapse;
-		}
-		
-		td.table.flag {
-			width: 100%;
-			padding-left: 17%;
-			padding-top: 5%;
-			padding-bottom: 5%;
-		}
-		
-		#title {
-			clear: left;
-		}
-		
-		#reset {
-			top: 456px;
-		}
-		
-		img.pesLogo {
-			float: left;
-			margin-left: 7%;
-		}
-		
-		#titleposition {
-			padding-left: 23%;
-		}
-		
-		#drawAll {
-			top: 385px;
-		}
-		
-		#pickTeam {
-			top: 243px;
-			left: 73.6%;
-		}
-		
-		#draw {
-			top: 314px;
-		}
-		
-		#teamPicked {
-			top: 238px;
-			left: 73.5%;
-		}
-		
-		body {
-			width: 0px;
-		}
-		
-		.topButton {
-			top: 533px;
-			height: 126px;
-			left: 72%;
-			display: none;
-		}
-		
-		select {
-			left: 72.5%;
-			top: 247px;
-			width: 25%;
-		}
-		
-		nav {
-			top: 209px;
-		}
-		
-		#grpA.myTables {
-			margin-top: 270px;
-		}
-		
-		#grpB.myTables {
-			margin-top: 25px;
-		}
-		
-		.welcomeHeader {
-			padding-top: 226px;
-		}
-		
-		.buttonSpace {
-			margin-top: -25px;
-		}
-		
-		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-			/* STYLES GO HERE */
-			html {
-				height: 100%;
-			}
-			
-			#titleposition {
-				padding-left: 8%;
-			}
-			
-			nav {
-				top: 87px;
-			}
-			
-			table {
-				border-spacing: 46px 20px;
-				border-collapse: collapse;
-				height: 192px;
-			}
-			
-			.welcomeHeader {
-				padding-top: 102px;
-				font-size: 27px;
-			}
-			
-			p.about {
-				padding-bottom: 40px;
-				font-size: 18.4px;
-			}
-			
-			#grpA.myTables {
-				margin-top: 124px;
-			}
-			
-			header {
-				background: #FFF;
-			}
-			
-			img.pesLogo {
-				margin-left: -4%;
-			}
-			
-			#title {
-				clear: none;
-				margin: -5%;
-			}
-			
-			#pickTeam {
-				top: 121px;
-				left: 74%;
-			}
-			
-			#draw {
-				top: 191px;
-				left: 72.4%;
-			}
-			
-			#drawAll {
-				top: 261px;
-				left: 73.5%;
-			}
-			
-			#reset {
-				top: 331px;
-				left: 72.4%;
-			}
-			
-			#backToTop {
-				top: 401px;
-				height: 75px;
-				left: 72.5%;
-			}
-			
-			footer {
-				width: 74.3%;
-			}
-			
-			select {
-				left: 72.5%;
-				top: 126px;
-				height: 67px;
-				width: 25%;
-			}
-			
-			#teamPicked {
-				top: 113px;
-				left: 74%;
-			}
-			
-			td.table.flag {
-				width: 100%;
-				padding-left: 17%;
-				padding-top: 1.5%;
-				padding-bottom: 3.6%;
-			}
-			
-			footer {
-				width: 100%;
-				display: none;
-			}
-			
-			#content {
-				width: 117%;
-				margin-left: -10%;
-			}
-			
-			content {
-				width: 124%;
-				margin-left: -13%;
-			}
-			
-			/* iPads (landscape) ----------- */
-			@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-				body {
-					background-color: blue;
-				}
-			}
-		}
-	}
+}
+body {
+    width: 0px;
+}
+.topButton {
+top: 533px;
+height: 126px;
+left: 72%;
+
+display: none;
+
+}
+
+select {
+
+left: 72.5%;
+top: 247px;
+width: 25%;
+}
+nav{
+top: 209px;
+}
+#grpA.myTables {
+margin-top: 270px;
+}
+#grpB.myTables {
+    margin-top: 25px;
+}
+.welcomeHeader {
+    padding-top: 226px;
+}
+.buttonSpace {
+    margin-top: -25px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) { /* STYLES GO HERE */
+html {
+height: 100%;
+}
+#titleposition{
+padding-left: 8%;
+}
+
+nav {
+    top: 87px;
+}
+table {
+    border-spacing: 46px 20px;
+    border-collapse: collapse;
+	height: 192px;
+
+}
+.welcomeHeader {
+    padding-top: 102px;
+	font-size: 27px;
+}
+
+p.about {
+    padding-bottom: 40px;
+    font-size: 18.4px;
+}
+ 
+
+#grpA.myTables {
+    margin-top: 124px;
+}
+
+
+header {
+background: #FFF;
+}
+
+img.pesLogo {
+    margin-left: -4%;
+
+}
+#title {
+    clear: none;
+    margin: -5%;
+}
+
+#pickTeam {
+    top: 121px;
+	left: 74%;
+}
+
+#draw {
+    top: 191px;
+	left: 72.4%;
+}
+#drawAll {
+    top: 261px;
+	left: 73.5%;
+}
+#reset {
+    top: 331px;
+	left: 72.4%;
+}
+
+#backToTop {
+    top: 401px;
+    height: 75px;
+    left: 72.5%;
+}
+
+footer {
+width: 74.3%;
+}
+
+select{
+left: 72.5%;
+top: 126px;
+height: 67px;
+width: 25%;
+
+}
+#teamPicked {
+    top: 113px;
+    left: 74%;
+}
+
+td.table.flag {
+    width: 100%;
+    padding-left: 17%;
+    padding-top: 1.5%;
+    padding-bottom: 3.6%;
+}
+
+footer{
+width: 100%;
+display: none;
+}
+
+#content {
+width: 117%;
+margin-left: -10%;
+}
+
+content {
+width: 124%;
+margin-left: -13%;
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+body {
+
+background-color: blue;
 }
