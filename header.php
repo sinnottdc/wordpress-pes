@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width">
     <title>PES Draw</title>
     
+    <script type="text/javascript"> var template_url = "<?php bloginfo('template_url'); ?>";// 
+</script>
     <script src="<?php bloginfo('template_url');?>/js/jquery-1.11.1.js"></script>
     <link href="<?php bloginfo('stylesheet_url');?>" type="text/css" rel="stylesheet" />
     <link href="<?php bloginfo('stylesheet_url');?> rel="stylesheet" />
@@ -20,8 +22,8 @@
         <!----header--->
        <header>
         <div id="titleposition"><a href="index.php">
-           <h1><img class="pesLogo" src="images/pes.jpg"  width="104" height="80" alt="PES logo"><div id="title" >DRAW</div></h1>
-			
+          <img src="<?php header_image();?>"  width="<?php echo get_custom_header() -> width;?>" height="<?php echo get_custom_header()->height;?>" alt="" class="pesLogo">
+		<h1><div id="title" >DRAW</div></h1>
         </a></div>
     </header>
 

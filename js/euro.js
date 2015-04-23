@@ -60,7 +60,7 @@ var flagArray = [];
 // push two images to the array
 //images.push(createImage("images/Austria.jpg", "Austria"));
 for (flags=0; flags<=33; flags++) {
-flagArray.push(createImage("/PesDraw/images/euroFlags/" + [flags] +".png"));
+flagArray.push(createImage(template_url + "/images/worldFlags/" + [flags] +".png"));
 }
 /*var flagArray = new Array();
 for (flags=0; flags<=33; flags++) {

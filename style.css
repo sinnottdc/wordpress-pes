@@ -69,6 +69,8 @@ div#title {
 
 img.pesLogo {
     float:  left;
+	padding-top: 24px;
+	padding-right; 11px
 }
 
 
@@ -197,6 +199,11 @@ text-decoration: none;
  color: black;
 }
 
+img.pesLogo {
+  float: left;
+  padding-top: 27px;
+  padding-right: 10px;
+}
 
 .konamiLink {
 	

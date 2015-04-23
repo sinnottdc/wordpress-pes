@@ -115,7 +115,7 @@ var flagArray = [];
 // push two images to the array
 //images.push(createImage("images/Austria.jpg", "Austria"));
 for (flags=0; flags<=80; flags++) {
-flagArray.push(createImage("/PesDraw/images/worldFlags/" + [flags] +".png"));
+flagArray.push(createImage(template_url + "/images/worldFlags/" + [flags] +".png"));
 }
 //Function to pick random teams from each seed group & input into table
 $(document).ready(function() {
