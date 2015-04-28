@@ -108,6 +108,7 @@ nav li a {
 	color: #fff;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+	width: 44.4%;
 }
 
 nav li a:hover {
@@ -282,7 +283,9 @@ body{
 width: 480px;
 
 }
-
+ header{
+ padding: 0px;
+ }
 
 .myTables {
 width: 50%;
@@ -299,12 +302,13 @@ left: 0px;
 }
 
 select {
-width: 23%;
-left: 0%;
+width: 25%;
+left: 72%;
 position: fixed;
 top: 168px;
 padding-left: 3%;
 padding-bottom: 5px;
+height: 9.5%;
 
 }
 #teamPicked{
@@ -335,7 +339,7 @@ width: 100%;
 
 nav {
 position: fixed;
-top: 129px;
+top: 118px;
 left: 0;
 width: 100%;
 }
@@ -382,7 +386,7 @@ padding-top: 150px;
 display: none;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 415px) {
 
 html, body {
     margin: 0 auto;

@@ -21,7 +21,7 @@
     <div id="container">
         <!----header--->
        <header>
-        <div id="titleposition"><a href="index.php">
+        <div id="titleposition"><a href="<?php $home = home_url(); echo $home ?>">
           <img src="<?php header_image();?>"  width="<?php echo get_custom_header() -> width;?>" height="<?php echo get_custom_header()->height;?>" alt="" class="pesLogo">
 		<h1><div id="title" >DRAW</div></h1>
         </a></div>

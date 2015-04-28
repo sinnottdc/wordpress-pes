@@ -121,8 +121,8 @@ $(document).ready(function() {
 		
     //draw teams individually button
    function drawIndividual() {
-	if (element==0) {
-		getScreenSize();}
+	/*if (element==0) {
+		getScreenSize();}*/
         $("select").hide();
         $('#pickTeam').hide();
         $('#teamPicked').show().html('Draw in progress');
@@ -382,6 +382,7 @@ $(document).ready(function() {
 
     //draw button
     $('#draw').click(function() {
+    	scroll();
         drawIndividual();
     });
 

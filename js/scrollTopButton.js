@@ -2,7 +2,7 @@ window.addEventListener("load",function() {
     window.scrollTo(0, 0);
 });
 
-	if (window.matchMedia('(max-width: 370px)').matches) {
+	if (window.matchMedia('(max-width: 415px)').matches) {
 		$('#backToTop').removeClass("topButton");
 		scrollButton();
 			};
